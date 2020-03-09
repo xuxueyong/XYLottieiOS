@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XYLottieiOS_Example' do
+  pod 'XYLottieiOS', :path => '../'
+  
+  # pod 'lottie-ios', '2.1.5'
+
+  target 'XYLottieiOS_Tests' do
+    inherit! :search_paths
+  
+    
+  end
+end

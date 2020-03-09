@@ -1,0 +1,16 @@
+PODS:
+  - XYLottieiOS (0.0.1)
+
+DEPENDENCIES:
+  - XYLottieiOS (from `../`)
+
+EXTERNAL SOURCES:
+  XYLottieiOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XYLottieiOS: 7d3c889719c5bb9e73fb72d81c3e7601482afce3
+
+PODFILE CHECKSUM: 7cd339172db00527eea5f55c491ec750aaaac838
+
+COCOAPODS: 1.9.0

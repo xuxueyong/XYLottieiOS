@@ -1,0 +1,1343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00FA14272A6528542117B57A450A92CD /* XXYStrokeRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC03EA5F2B0FBA6E5645351AA8EDBD4 /* XXYStrokeRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		013BEFB29780DD11E754869969D691BE /* XXYRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E6368F3C070A4AD9765445CEF1CAC7 /* XXYRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01819F18B11B0D6F47503FD60BE24899 /* XYLottieiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E3CE04EC054CE06DA6FEF41236251C /* XYLottieiOS-dummy.m */; };
+		0215D38E50D685F3172B6CAEBAF413AE /* XXYRepeaterRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 87264C81E37D1CE121CE5289002F75D2 /* XXYRepeaterRenderer.m */; };
+		06635770AA041B875529470F0A6DEE0C /* XXYMaskContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = E4BA9A5ABAAA7287530CA054B0BD8EC7 /* XXYMaskContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		072AD6AC2EC4AC8152F3E38D2297322A /* XXYLayerGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 301BF138CCABE0C3954477713AA68E6C /* XXYLayerGroup.m */; };
+		0764318AB2D612AD61784EA5868AE18D /* XXYMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B351F19694E5EED1A1416B3AB5152A3 /* XXYMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A5FB190B6DB376D700CDDCB543FD5D6 /* XXYAnimatedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4782BE873FDD56212CFC7BB8BC2ED0A1 /* XXYAnimatedControl.m */; };
+		0F5357A06DC81767656979145B6A8212 /* XXYFillRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = A29F8FFCFA5AC560BCE853BE6CAC2D80 /* XXYFillRenderer.m */; };
+		0FD81645BD0996E829D29D61D4B2E545 /* XXYShapeStroke.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF43FA99B653423F60A4A60C117902B /* XXYShapeStroke.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1282218794DE6DFF35F756826D1B27DC /* XXYShapeGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B037D3070FD6E2489F21D699231DA84 /* XXYShapeGroup.m */; };
+		130DC420B27628B2AFF27E01DC6B344B /* XXYAnimatorNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 82FF49E6E0096BD57ECB0606A6EB6247 /* XXYAnimatorNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15725D5665E974FCF25A985F5721499E /* XXYPointInterpolator.h in Headers */ = {isa = PBXBuildFile; fileRef = 340756678810C690015BFAC121151E76 /* XXYPointInterpolator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15BDC2AD710AE96DED3655B09992529F /* XXYPolygonAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D55C6E99F5C3F041B593A633962097 /* XXYPolygonAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18D851F2C3ABB648DCC0528F8639DE68 /* XYLottieiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5ACC72EAF464DD5B2CAF70B1A4254A /* XYLottieiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F2B09D8D4A682A29FDB82BA0C8D1D58 /* XXYCircleAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C8F936264922E454C04CA4C003D8F6 /* XXYCircleAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FBB61B31985F75D066A3EFC32363721 /* XXYValueInterpolator.h in Headers */ = {isa = PBXBuildFile; fileRef = AF5024243F3CAA19DEA3C33D31DB0724 /* XXYValueInterpolator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2028A6D78F0DA8406ED1F4BE0CC126F5 /* XXYShapeStar.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E1A0340115A914E74E7B0359AB655B /* XXYShapeStar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2196C9D3611DB2643F5063386C7A7279 /* XXYShapeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CC3287D9A26C7CC01397F611E83C14 /* XXYShapeCircle.m */; };
+		22DDD7DFE65459E361929E70FC7989F8 /* XXYAnimatorNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9CD6BD3E2CF50F52C464EE75E2EC6C /* XXYAnimatorNode.m */; };
+		258787D5DEE2834B2E9F36A1FA3D19DC /* XXYPointInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = 23141803E7E650B93116CF947D186F58 /* XXYPointInterpolator.m */; };
+		26C041B79BE742E715A0F99F0B9911B7 /* CGGeometry+XXYAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 815E59B64EC981F8C0AD8B9D09005303 /* CGGeometry+XXYAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26DFA280447F0567B9E3AC412B5248B3 /* XXYCompositionContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 82758A21426698247790FE874AF681AC /* XXYCompositionContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2773A0884C1A4C1ABFBB8D88264C1C04 /* XXYRenderNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DD58AF6363D9FEA6FF019D09A5CE10 /* XXYRenderNode.m */; };
+		27A01ED684FD289FD706785D3960817D /* XXYShapeCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = CD56FE0E6EADAE4373D5141AD0C79E99 /* XXYShapeCircle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B5E58A99C795D80B2D1D1A0250B5FF3 /* XXYPathInterpolator.h in Headers */ = {isa = PBXBuildFile; fileRef = 83BD3B15BEFF59388B854604B801DF06 /* XXYPathInterpolator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F21AD8CC8DAE78C47176B9F7A2598D6 /* XXYArrayInterpolator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AEE2A8038CBDDD018CE7FCA78640A76 /* XXYArrayInterpolator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3508AD89356E4D802E14395810802423 /* XXYKeyframe.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F73997FE9DCA5DFD7B3BCEC7466911 /* XXYKeyframe.m */; };
+		3D6242EEA2CFF05468C0EB480CCD2526 /* XXYAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = B07C00951F2A22C7E5A5E79B5A776385 /* XXYAsset.m */; };
+		3FA628F70C5F96E57387382829CAF32D /* XXYShapeFill.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEDA23F4C168B6BEE2450268F207C79 /* XXYShapeFill.m */; };
+		407A7209752271EE594F5F4B0F782347 /* XXYTrimPathNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DCD8D0E1303572ED153D1F7EC3ABCF /* XXYTrimPathNode.m */; };
+		40CCBA5B2D54CC348D66796892406A69 /* XXYBezierData.h in Headers */ = {isa = PBXBuildFile; fileRef = 26EDEE1912A8C5B864ABE077132DBBF1 /* XXYBezierData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4587D96F0C59A2EF2937C2E60AE95959 /* Pods-XYLottieiOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C72E8B38363C1DAFEA9949FB382598F /* Pods-XYLottieiOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47CA6600E8A8294D52BB7A71771E5848 /* Pods-XYLottieiOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B340F27EA3EF717599E8D172BCEA18FE /* Pods-XYLottieiOS_Tests-dummy.m */; };
+		49A6C6C26C69E7941CE885CB478B078C /* XXYRoundedRectAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F50999CA587D49A578D6DD872E520593 /* XXYRoundedRectAnimator.m */; };
+		4BCCAF952645AA40E94DBB4F7E08D023 /* Pods-XYLottieiOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B2ED0ADE2A6DB9E28FAF398D0500C /* Pods-XYLottieiOS_Example-dummy.m */; };
+		4C76E43B47C754EB3E205EABBDD80191 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4DAE6734877F66DABAA0C8EEA6E7AF71 /* XXYNumberInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2786917E81E58BC451AEBB506EFFEA9C /* XXYNumberInterpolator.m */; };
+		4ED50E3952D9CD3882EFA2F5565C9B34 /* XXYLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9038A3C5CD6EDAA32DFBF9A7C52D6526 /* XXYLayer.m */; };
+		4F456C63A53D8270228B9DB71CB8B944 /* XXYCacheProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6A1A200646343259F8B96088F19A50 /* XXYCacheProvider.m */; };
+		5162FED10FC5C1184D2B101914030927 /* XXYShapeTrimPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 2696FEA6599E4708C5A2A150C85BA3D5 /* XXYShapeTrimPath.m */; };
+		57779D4685958233977AF3547BB1A384 /* XXYLottie.h in Headers */ = {isa = PBXBuildFile; fileRef = C0245F600541BD442CFC7629C862969B /* XXYLottie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57E8A7347BCC87D11FA1E8ABA2493FCC /* XXYPolygonAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 56809AF2E38BA9D557D2A06D85A6A7C5 /* XXYPolygonAnimator.m */; };
+		5955C13CB39AF81BA31BC86AF1FC99C5 /* CALayer+Compat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7BD25B71992B88AF53E3CD5244D134 /* CALayer+Compat.m */; };
+		5B23EFCD5608921FCA45F555775064C1 /* XXYRenderGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = FD7ACD0152986FC86AB161523819EBCB /* XXYRenderGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C3B64018B635EC552A6748131DC1F01 /* XXYBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8111DBD403F892D760182B952DA9C4 /* XXYBezierPath.m */; };
+		5EA6138B1AA0F95636D7E234A9382162 /* XXYShapeStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = FB120F42941672A0B03C784A9CAD84BB /* XXYShapeStroke.m */; };
+		605B8F886E46379CA3094631F7974B3D /* XXYAnimatedSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = F8BA8A8DB674EE7DCCA33C2F53D85AA1 /* XXYAnimatedSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62BD3AF74655885C2F35ED73D22E99DD /* XXYComposition.h in Headers */ = {isa = PBXBuildFile; fileRef = E582858187DA3ECA738F579BACCCE628 /* XXYComposition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64B3800CE1E0D45CF5ECC7DE49704D97 /* XXYAssetGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = D5202504B989CC5BCB03D6F24AADCD51 /* XXYAssetGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656DD8733AB3A024D57F5A3192793066 /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = E170588043E37E2FE46FFCF7B2E2339C /* UIColor+Expanded.m */; };
+		658287E49F7E8E1FCCA26BF4817A5953 /* XXYGradientFillRender.h in Headers */ = {isa = PBXBuildFile; fileRef = D34B5D4AE656E9D2A605984E4B7BB290 /* XXYGradientFillRender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68A5E620933846484A10A928ECAE6D55 /* XXYRoundedRectAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8F44EB9122A2C7BE3B3194D10298F6 /* XXYRoundedRectAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A9E530277FEA575DD40B67F1C337899 /* XXYValueInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE8D2D06EBCF50C0533FB5286F07C7E /* XXYValueInterpolator.m */; };
+		6B558FAD7F43C9C5C6351A8A111F7F20 /* XXYPolystarAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B556697E11E59B2F39F7B9F239A042C2 /* XXYPolystarAnimator.m */; };
+		6DABB0C0E4C0E783B52D574EDF69D499 /* XXYShapeFill.h in Headers */ = {isa = PBXBuildFile; fileRef = B757BBD4DCD3066B729F4238215524FE /* XXYShapeFill.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FE2CC073EC744A45BB9469541C4669B /* XXYComposition.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D10E239513AE9EB2B0D0D032776CB /* XXYComposition.m */; };
+		709A138AA026C3F5B30F4615D2CCF1E0 /* XXYPlatformCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = E66347388F35B61FB6E19921B34A5E74 /* XXYPlatformCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7250E544630623DC64A70111F40F7CCD /* XXYLayerGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F41076BD1AAF5A2046A0907FFA3A9E5 /* XXYLayerGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7448D0C8A5B7116F37727EA97C883A48 /* UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDABDF8FDAC6F146F557E8EE584B772 /* UIColor.m */; };
+		74FC19D46E4CE0EF7E29AFF83193435C /* XXYShapeRectangle.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED37B9B6DF907A5FDC2CB425D991B4F /* XXYShapeRectangle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		750FE3618E3E48C03266E66FA0271382 /* XXYShapeTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 907876F9A5456A03B1ECECA9032D0A47 /* XXYShapeTransform.m */; };
+		75883A4044C6EE868F6190278AA7A602 /* XXYNumberInterpolator.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1C336622D7E1E23C973A35E39E259E /* XXYNumberInterpolator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		781BF6C3ECE567B269544A46DC795A19 /* XXYAssetGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5338FA27E8B8B2F3624C069AD7B0BE59 /* XXYAssetGroup.m */; };
+		7C286DCAD3687F05A33AD1D98DF8A3C5 /* XXYAnimatedSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E71059D59EA0DD90B0533BE085ACC4 /* XXYAnimatedSwitch.m */; };
+		862EDA198BF4D2D442C49BFD59DF81EF /* CALayer+Compat.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA9940B4E459EFCDBD5A71913FEE41D /* CALayer+Compat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		887175DCC63CB09CA7FC8DA7A9557D05 /* XXYShapeGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A19CCE8BF04E7DB2988328E3E25420 /* XXYShapeGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D2990326A6AD7F9CB441C376FE6C67D /* XXYArrayInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6184113B111F1BCEE1AE662D09AB9 /* XXYArrayInterpolator.m */; };
+		8D38900F59A82C6A1C6FAE86E47D0A89 /* XXYTransformInterpolator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A51752F35C7E01A84CF5374D9B171F2 /* XXYTransformInterpolator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E98F5D91ABCDFD8162082C4F67CB06F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8FF7D40E6081FDE2E379264A2EE94AD4 /* XXYGradientFillRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E63EE02C02D1C33831F540E4E5C2B /* XXYGradientFillRender.m */; };
+		90EC4EE4E82C401298C5EF22054B5DCA /* XXYAnimationTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4DCF53E845CECEEF40BEE08585207 /* XXYAnimationTransitionController.m */; };
+		91A0D37A09A95848F96E84A15631EE2F /* XXYPathAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DE013EE0A86C6DA648C56A355CD5D1B /* XXYPathAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93E67976567ACEB49BF155793C1AA4D7 /* XXYLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC83A2D1A892CCBF1945D9350FF751C /* XXYLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9864038F02086D5521A2A567EEDBBA94 /* XXYMask.m in Sources */ = {isa = PBXBuildFile; fileRef = C12EB50F5F9D0D663679E5F1F8D5171D /* XXYMask.m */; };
+		9F12837CE5EC437D4E08706C53B1445F /* XXYKeyframe.h in Headers */ = {isa = PBXBuildFile; fileRef = 4767D1E53BA18D6E58BB32876E64AADA /* XXYKeyframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A19739A0C18CD497A2264596067B8901 /* UIColor.h in Headers */ = {isa = PBXBuildFile; fileRef = E3DF8FDF130200B1070B3063C39665EF /* UIColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1BB58B379E50764C85779FC66D15721 /* CGGeometry+XXYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D272750B9CFBDF5684A4892083FA355 /* CGGeometry+XXYAdditions.m */; };
+		A200389DB3C6E6F882FAD397DFCD8951 /* XXYLayerContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = A461737E46621EF11FFD0AA5D75F1B73 /* XXYLayerContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3A35E33F2A4FF6E2ACCEF224BD5F378 /* XXYColorInterpolator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D32B435DD92A7771EC76A4B14D5DE32 /* XXYColorInterpolator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A48AB200030AB7AE6C1B00A6428F674C /* XXYCacheProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = E4476E32201505936006F4111A0BC9CD /* XXYCacheProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5333E5872D80D7A47F4CB19441A7520 /* XXYTrimPathNode.h in Headers */ = {isa = PBXBuildFile; fileRef = A433ACCA53B29B83C9491A575A2A2456 /* XXYTrimPathNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A67146B3D16DE225E9E6234183B53409 /* NSValue+Compat.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BB26A87022EA1A1DFB79D305BFC4A0 /* NSValue+Compat.m */; };
+		A6E6C951A752FAAA1AEED09833B2EC2D /* XXYShapeTrimPath.h in Headers */ = {isa = PBXBuildFile; fileRef = FDAD607B802E1CCFED3737BB757DC8EF /* XXYShapeTrimPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A87FDBD09DB5D182F5875E77A65A833E /* XXYRepeaterRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AAE3015E5B50C364736216A62D3B430 /* XXYRepeaterRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA6F049DE1908E2429E0D64BB0F6ECF7 /* XXYFillRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9136A6E4CF7FC0F4D2B20992C9B88A2A /* XXYFillRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB24C153DB1C25B5E890789B87A8DCC0 /* XXYShapeGradientFill.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD86359619CC769A1976750B40B1C99 /* XXYShapeGradientFill.m */; };
+		AB31BA0FE405C7F078990C375648281F /* XXYAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 952A20C29098F89D701A9AFA11531E5A /* XXYAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD6B48F21F9179F892F539063FEA1370 /* XXYSizeInterpolator.h in Headers */ = {isa = PBXBuildFile; fileRef = 61853C41017CB3C0699845B1655F46C8 /* XXYSizeInterpolator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA6CCF54FA6B5045B0CADBE30921A67 /* XXYShapeGradientFill.h in Headers */ = {isa = PBXBuildFile; fileRef = B059F3CCC01A0DE1C091CC7E2D6EAEC1 /* XXYShapeGradientFill.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0182E4BA1C08863BF9F13CDDF0EFDE2 /* XXYPolystarAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA66FA5B61E1017FDE8F15BF37ECBA7 /* XXYPolystarAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B125C92D59F2AEDB59DF64C411B7071C /* XXYRenderGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEED014E7582AEC9BE0E69EF80EC24E /* XXYRenderGroup.m */; };
+		B2C4C7D8057C9509CFBBA6546E1D9205 /* XXYModels.h in Headers */ = {isa = PBXBuildFile; fileRef = B9688A53DA7418ABAD71B90BD684E569 /* XXYModels.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3AFCF31CE9C87A687ECC349BBE6D21B /* XXYAnimationCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F31A21E3E8313433FFC9313DF2A04A51 /* XXYAnimationCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B514B57CB5C3A0C569D2D15EFA7F038E /* XXYAnimatedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F24C4DEFA5680DEA34D7CE98D8C2CF49 /* XXYAnimatedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B62914540C23469C53B5CA4BE0360856 /* XXYStrokeRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B761340DE7A0E24009A8E75FD067DC5 /* XXYStrokeRenderer.m */; };
+		BBDB55C34FE2BBA62788506D06EE5EB9 /* XXYShapeRepeater.m in Sources */ = {isa = PBXBuildFile; fileRef = 356C9C9F8361A343D7F288DF1DF691C0 /* XXYShapeRepeater.m */; };
+		C0BBA4B3FCDFAFCFEB256D6B85318B8D /* XXYColorInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = DC871EAD6CD5BC024B86DF8644FA6A21 /* XXYColorInterpolator.m */; };
+		C14B0F25799C29495D34B90FF9380416 /* XXYShapeTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = B44E85E2648A377D7E03CAABF380BBBC /* XXYShapeTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1A9245824702DB2A1523506A95BF3B1 /* XXYAnimationTransitionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E323BC838824B82FD36ED188450E9FB /* XXYAnimationTransitionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1D222DDC014EB58E8082FEDD24C005F /* XXYAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D152CD2E81D30214ED3EFA6671049A6 /* XXYAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C541C2AFD14A3F0E9C6FF53A32F5C294 /* XXYTransformInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF7F2B738793A1475EB8E293CC89774 /* XXYTransformInterpolator.m */; };
+		C642A6D63A09208CBE308B9398A1BD09 /* UIColor+Expanded.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF208CD15356ED9F3DB02F3198B7644 /* UIColor+Expanded.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7E77867CD3E58582D38EBA70A143E2A /* NSValue+Compat.h in Headers */ = {isa = PBXBuildFile; fileRef = B124902A69A07FD6643953DC1C1E573A /* NSValue+Compat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8EA5AA1895AED570BA779A5335AC17B /* XXYMaskContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0C5870FE8449FDE446E282BB845C06 /* XXYMaskContainer.m */; };
+		CA4446DA2C4148A98FA778F427E6A94B /* XXYSizeInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8DCC5BCE917A5ED27F3F1E0AD2B40 /* XXYSizeInterpolator.m */; };
+		CAF6D8B0DC5469328F1D6D7924709818 /* XXYShapePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBF1B6F8202EEFB048E785502C2EC0A /* XXYShapePath.m */; };
+		CC2DF065CF604A40903070E75E34A2E8 /* XXYShapePath.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FB0C2B44402201D854D9DACA56EE696 /* XXYShapePath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDB2241F5C42A2F6F8DA713D348BBE3B /* XXYRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 209B6CE5F8C9EE3E9F13A10C4E10CC8F /* XXYRadialGradientLayer.m */; };
+		CE596F427BA963292C85062C0E1BE5A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D259766B423023263BA39FD4C682960D /* XXYAnimationView_Compat.h in Headers */ = {isa = PBXBuildFile; fileRef = 68592AC362A7BE11D9144C003C22A181 /* XXYAnimationView_Compat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4FCE716158292FC323D4E78A30C4896 /* XXYCircleAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F695A3A3DE097B19984C1E20857E86 /* XXYCircleAnimator.m */; };
+		D5DEBBDA109AAB06688A86A0588780EA /* XXYPathInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B413690C215775DDFB4B3F6D749BB4 /* XXYPathInterpolator.m */; };
+		D8486C13D4A18FF7E464AB6A8D381FB7 /* XXYBezierPath.h in Headers */ = {isa = PBXBuildFile; fileRef = B98AC8E36F14D3353592F7FBF5109ECC /* XXYBezierPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D86F6DCC9394C933F55862D10752661D /* XXYAnimationView_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB51A0B035190251E6F5AADDEF8C2D3 /* XXYAnimationView_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D978A2628BDF0E4EA4CCB10E8A7AF944 /* Pods-XYLottieiOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7078DAD0D926B44071FD22BCA3CC8E70 /* Pods-XYLottieiOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DABD2D706952E7D6221BF648565AB3E4 /* XXYShapeStar.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C1093C8E3D969AA5CF62B7798C9094 /* XXYShapeStar.m */; };
+		DD19835A16FF340A32D772EEEE896C37 /* XXYAnimationCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB9F0899CDD452BEF67A8C4B59294D /* XXYAnimationCache.m */; };
+		ED0C2D17B0A1EC314051A1861531EAA2 /* XXYShapeRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E498C3D1CA26BF7135F3D2BBC8E173 /* XXYShapeRectangle.m */; };
+		EDB02BCB4D78EEBB6CE6632538108DEC /* XXYHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 822D59CD62D17E494BB23761AFB67914 /* XXYHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDF9B06D683E216EF7B857675B1D1BCB /* XXYAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4DBE266A18B394357B5276413AD583 /* XXYAnimationView.m */; };
+		F04ADF4C8ACA106A76BEAEC702B235E1 /* XXYBezierData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4AE0158FF5EA87CB9EE2F9F6EE898C /* XXYBezierData.m */; };
+		F305B97CE257332F38306C88A3ED105C /* XXYCompositionContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF7AE5C86F6D26A62C32EBA273C6494 /* XXYCompositionContainer.m */; };
+		F4F39CC217E16DDBC8A84E90CE91514F /* XXYPathAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E945D4ED9B4429808A990C909C2537 /* XXYPathAnimator.m */; };
+		F7D3FA08DFA391F18D6F7083EDA2ACA0 /* XXYLayerContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = F763CBC85F9C00A60BFD1D071F8AF20B /* XXYLayerContainer.m */; };
+		F7DBE9518105256D13EA8182D47758DF /* XXYRenderNode.h in Headers */ = {isa = PBXBuildFile; fileRef = D2D612522FCE1619A46E3701267D0677 /* XXYRenderNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCC91468FD36F16D38B085E732826D6A /* XXYShapeRepeater.h in Headers */ = {isa = PBXBuildFile; fileRef = A7AA769BDCF844E58BC64D9EF396671E /* XXYShapeRepeater.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A74297E5860D6DF5EA27CE8FF41FE71E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 934AC71F855E711F99DE1FB08D46A26E;
+			remoteInfo = XYLottieiOS;
+		};
+		F2EEEBE8B866F769FFEE00B8955F2076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 907B85A5F2B81396DE28FEEB125D28E0;
+			remoteInfo = "Pods-XYLottieiOS_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BA9940B4E459EFCDBD5A71913FEE41D /* CALayer+Compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CALayer+Compat.h"; sourceTree = "<group>"; };
+		0FB0C2B44402201D854D9DACA56EE696 /* XXYShapePath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYShapePath.h; sourceTree = "<group>"; };
+		17C8F936264922E454C04CA4C003D8F6 /* XXYCircleAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYCircleAnimator.h; sourceTree = "<group>"; };
+		1A7742324E9A1C5E3D4BD44D75D15348 /* XYLottieiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XYLottieiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7BD25B71992B88AF53E3CD5244D134 /* CALayer+Compat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Compat.m"; sourceTree = "<group>"; };
+		1C72E8B38363C1DAFEA9949FB382598F /* Pods-XYLottieiOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XYLottieiOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		1E1A79ECABC3565C5A578D1E80EFE8EE /* XYLottieiOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XYLottieiOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		209B6CE5F8C9EE3E9F13A10C4E10CC8F /* XXYRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYRadialGradientLayer.m; sourceTree = "<group>"; };
+		21E1A0340115A914E74E7B0359AB655B /* XXYShapeStar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYShapeStar.h; sourceTree = "<group>"; };
+		23141803E7E650B93116CF947D186F58 /* XXYPointInterpolator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYPointInterpolator.m; sourceTree = "<group>"; };
+		23F695A3A3DE097B19984C1E20857E86 /* XXYCircleAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYCircleAnimator.m; sourceTree = "<group>"; };
+		2696FEA6599E4708C5A2A150C85BA3D5 /* XXYShapeTrimPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYShapeTrimPath.m; sourceTree = "<group>"; };
+		26EDEE1912A8C5B864ABE077132DBBF1 /* XXYBezierData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYBezierData.h; sourceTree = "<group>"; };
+		2786917E81E58BC451AEBB506EFFEA9C /* XXYNumberInterpolator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYNumberInterpolator.m; sourceTree = "<group>"; };
+		28D55C6E99F5C3F041B593A633962097 /* XXYPolygonAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYPolygonAnimator.h; sourceTree = "<group>"; };
+		28DD58AF6363D9FEA6FF019D09A5CE10 /* XXYRenderNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYRenderNode.m; sourceTree = "<group>"; };
+		2A2B2ED0ADE2A6DB9E28FAF398D0500C /* Pods-XYLottieiOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XYLottieiOS_Example-dummy.m"; sourceTree = "<group>"; };
+		2A51752F35C7E01A84CF5374D9B171F2 /* XXYTransformInterpolator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYTransformInterpolator.h; sourceTree = "<group>"; };
+		2AEE2A8038CBDDD018CE7FCA78640A76 /* XXYArrayInterpolator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYArrayInterpolator.h; sourceTree = "<group>"; };
+		2B351F19694E5EED1A1416B3AB5152A3 /* XXYMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYMask.h; sourceTree = "<group>"; };
+		2BEED014E7582AEC9BE0E69EF80EC24E /* XXYRenderGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYRenderGroup.m; sourceTree = "<group>"; };
+		301BF138CCABE0C3954477713AA68E6C /* XXYLayerGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYLayerGroup.m; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		340756678810C690015BFAC121151E76 /* XXYPointInterpolator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYPointInterpolator.h; sourceTree = "<group>"; };
+		356C9C9F8361A343D7F288DF1DF691C0 /* XXYShapeRepeater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYShapeRepeater.m; sourceTree = "<group>"; };
+		36E3CE04EC054CE06DA6FEF41236251C /* XYLottieiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XYLottieiOS-dummy.m"; sourceTree = "<group>"; };
+		3C0C5870FE8449FDE446E282BB845C06 /* XXYMaskContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYMaskContainer.m; sourceTree = "<group>"; };
+		3D152CD2E81D30214ED3EFA6671049A6 /* XXYAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYAsset.h; sourceTree = "<group>"; };
+		3EBF1B6F8202EEFB048E785502C2EC0A /* XXYShapePath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYShapePath.m; sourceTree = "<group>"; };
+		3FC4DCF53E845CECEEF40BEE08585207 /* XXYAnimationTransitionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYAnimationTransitionController.m; sourceTree = "<group>"; };
+		441DFDBD26A33409490550AB0B0FD55A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		447E2739A1BBBA173B487BDC80B4EF59 /* Pods_XYLottieiOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYLottieiOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4636255FB85948BB48B92C58C5FBDEB4 /* Pods-XYLottieiOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XYLottieiOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		464C2FDD1C67B7B6275AA8D50FF434DC /* XYLottieiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XYLottieiOS.modulemap; sourceTree = "<group>"; };
+		4767D1E53BA18D6E58BB32876E64AADA /* XXYKeyframe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYKeyframe.h; sourceTree = "<group>"; };
+		4782BE873FDD56212CFC7BB8BC2ED0A1 /* XXYAnimatedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYAnimatedControl.m; sourceTree = "<group>"; };
+		47E71059D59EA0DD90B0533BE085ACC4 /* XXYAnimatedSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYAnimatedSwitch.m; sourceTree = "<group>"; };
+		4AAE3015E5B50C364736216A62D3B430 /* XXYRepeaterRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYRepeaterRenderer.h; sourceTree = "<group>"; };
+		4AE53F164C5AC7FFE180072EB2AF4369 /* Pods-XYLottieiOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XYLottieiOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CD86359619CC769A1976750B40B1C99 /* XXYShapeGradientFill.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYShapeGradientFill.m; sourceTree = "<group>"; };
+		4DF7AE5C86F6D26A62C32EBA273C6494 /* XXYCompositionContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYCompositionContainer.m; sourceTree = "<group>"; };
+		4F41076BD1AAF5A2046A0907FFA3A9E5 /* XXYLayerGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYLayerGroup.h; sourceTree = "<group>"; };
+		5338FA27E8B8B2F3624C069AD7B0BE59 /* XXYAssetGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYAssetGroup.m; sourceTree = "<group>"; };
+		56809AF2E38BA9D557D2A06D85A6A7C5 /* XXYPolygonAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYPolygonAnimator.m; sourceTree = "<group>"; };
+		56AA54EF0B6367A116C192B653342328 /* Pods_XYLottieiOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYLottieiOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B761340DE7A0E24009A8E75FD067DC5 /* XXYStrokeRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYStrokeRenderer.m; sourceTree = "<group>"; };
+		5CEDA23F4C168B6BEE2450268F207C79 /* XXYShapeFill.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYShapeFill.m; sourceTree = "<group>"; };
+		5FC83A2D1A892CCBF1945D9350FF751C /* XXYLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYLayer.h; sourceTree = "<group>"; };
+		61853C41017CB3C0699845B1655F46C8 /* XXYSizeInterpolator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYSizeInterpolator.h; sourceTree = "<group>"; };
+		68592AC362A7BE11D9144C003C22A181 /* XXYAnimationView_Compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYAnimationView_Compat.h; sourceTree = "<group>"; };
+		6B037D3070FD6E2489F21D699231DA84 /* XXYShapeGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYShapeGroup.m; sourceTree = "<group>"; };
+		6B6A1A200646343259F8B96088F19A50 /* XXYCacheProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYCacheProvider.m; sourceTree = "<group>"; };
+		6C9CD6BD3E2CF50F52C464EE75E2EC6C /* XXYAnimatorNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYAnimatorNode.m; sourceTree = "<group>"; };
+		7078DAD0D926B44071FD22BCA3CC8E70 /* Pods-XYLottieiOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XYLottieiOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		78C835E915298BB594F78115F35A640C /* Pods-XYLottieiOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XYLottieiOS_Example-Info.plist"; sourceTree = "<group>"; };
+		78E6368F3C070A4AD9765445CEF1CAC7 /* XXYRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYRadialGradientLayer.h; sourceTree = "<group>"; };
+		79BB26A87022EA1A1DFB79D305BFC4A0 /* NSValue+Compat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSValue+Compat.m"; sourceTree = "<group>"; };
+		7AE5556CC96F5515E0F126BC54569388 /* Pods-XYLottieiOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XYLottieiOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D272750B9CFBDF5684A4892083FA355 /* CGGeometry+XXYAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CGGeometry+XXYAdditions.m"; sourceTree = "<group>"; };
+		7DEAA2026A20417DE0F15C94D28F8AF6 /* XYLottieiOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XYLottieiOS-Info.plist"; sourceTree = "<group>"; };
+		7E323BC838824B82FD36ED188450E9FB /* XXYAnimationTransitionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYAnimationTransitionController.h; sourceTree = "<group>"; };
+		7ED37B9B6DF907A5FDC2CB425D991B4F /* XXYShapeRectangle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYShapeRectangle.h; sourceTree = "<group>"; };
+		7F4AE0158FF5EA87CB9EE2F9F6EE898C /* XXYBezierData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYBezierData.m; sourceTree = "<group>"; };
+		810DA799AE92D771B0A2E0EB56233C9F /* Pods-XYLottieiOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYLottieiOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		815E59B64EC981F8C0AD8B9D09005303 /* CGGeometry+XXYAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CGGeometry+XXYAdditions.h"; sourceTree = "<group>"; };
+		822D59CD62D17E494BB23761AFB67914 /* XXYHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYHelpers.h; sourceTree = "<group>"; };
+		82758A21426698247790FE874AF681AC /* XXYCompositionContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYCompositionContainer.h; sourceTree = "<group>"; };
+		82DB74E1590078194E12CC5540A59763 /* XYLottieiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYLottieiOS-prefix.pch"; sourceTree = "<group>"; };
+		82FF49E6E0096BD57ECB0606A6EB6247 /* XXYAnimatorNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYAnimatorNode.h; sourceTree = "<group>"; };
+		83BD3B15BEFF59388B854604B801DF06 /* XXYPathInterpolator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYPathInterpolator.h; sourceTree = "<group>"; };
+		847D10E239513AE9EB2B0D0D032776CB /* XXYComposition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYComposition.m; sourceTree = "<group>"; };
+		84DB9F0899CDD452BEF67A8C4B59294D /* XXYAnimationCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYAnimationCache.m; sourceTree = "<group>"; };
+		87264C81E37D1CE121CE5289002F75D2 /* XXYRepeaterRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYRepeaterRenderer.m; sourceTree = "<group>"; };
+		8E5E63EE02C02D1C33831F540E4E5C2B /* XXYGradientFillRender.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYGradientFillRender.m; sourceTree = "<group>"; };
+		9038A3C5CD6EDAA32DFBF9A7C52D6526 /* XXYLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYLayer.m; sourceTree = "<group>"; };
+		907876F9A5456A03B1ECECA9032D0A47 /* XXYShapeTransform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYShapeTransform.m; sourceTree = "<group>"; };
+		9136A6E4CF7FC0F4D2B20992C9B88A2A /* XXYFillRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYFillRenderer.h; sourceTree = "<group>"; };
+		952A20C29098F89D701A9AFA11531E5A /* XXYAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYAnimationView.h; sourceTree = "<group>"; };
+		96A19CCE8BF04E7DB2988328E3E25420 /* XXYShapeGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYShapeGroup.h; sourceTree = "<group>"; };
+		9BB8DCC5BCE917A5ED27F3F1E0AD2B40 /* XXYSizeInterpolator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYSizeInterpolator.m; sourceTree = "<group>"; };
+		9D32B435DD92A7771EC76A4B14D5DE32 /* XXYColorInterpolator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYColorInterpolator.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE013EE0A86C6DA648C56A355CD5D1B /* XXYPathAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYPathAnimator.h; sourceTree = "<group>"; };
+		9DE6184113B111F1BCEE1AE662D09AB9 /* XXYArrayInterpolator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYArrayInterpolator.m; sourceTree = "<group>"; };
+		A1F73997FE9DCA5DFD7B3BCEC7466911 /* XXYKeyframe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYKeyframe.m; sourceTree = "<group>"; };
+		A29F8FFCFA5AC560BCE853BE6CAC2D80 /* XXYFillRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYFillRenderer.m; sourceTree = "<group>"; };
+		A433ACCA53B29B83C9491A575A2A2456 /* XXYTrimPathNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYTrimPathNode.h; sourceTree = "<group>"; };
+		A461737E46621EF11FFD0AA5D75F1B73 /* XXYLayerContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYLayerContainer.h; sourceTree = "<group>"; };
+		A7AA769BDCF844E58BC64D9EF396671E /* XXYShapeRepeater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYShapeRepeater.h; sourceTree = "<group>"; };
+		A8B86096472A027DEAD0CE4951FD6645 /* Pods-XYLottieiOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XYLottieiOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8EB3D1122AF0D9F57F7FF882B57FD47 /* Pods-XYLottieiOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYLottieiOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ABF43FA99B653423F60A4A60C117902B /* XXYShapeStroke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYShapeStroke.h; sourceTree = "<group>"; };
+		AF0841CBDC02B6FA8874651FE32DC11E /* Pods-XYLottieiOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYLottieiOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF5024243F3CAA19DEA3C33D31DB0724 /* XXYValueInterpolator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYValueInterpolator.h; sourceTree = "<group>"; };
+		B059F3CCC01A0DE1C091CC7E2D6EAEC1 /* XXYShapeGradientFill.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYShapeGradientFill.h; sourceTree = "<group>"; };
+		B07C00951F2A22C7E5A5E79B5A776385 /* XXYAsset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYAsset.m; sourceTree = "<group>"; };
+		B124902A69A07FD6643953DC1C1E573A /* NSValue+Compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSValue+Compat.h"; sourceTree = "<group>"; };
+		B340F27EA3EF717599E8D172BCEA18FE /* Pods-XYLottieiOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XYLottieiOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		B44E85E2648A377D7E03CAABF380BBBC /* XXYShapeTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYShapeTransform.h; sourceTree = "<group>"; };
+		B556697E11E59B2F39F7B9F239A042C2 /* XXYPolystarAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYPolystarAnimator.m; sourceTree = "<group>"; };
+		B757BBD4DCD3066B729F4238215524FE /* XXYShapeFill.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYShapeFill.h; sourceTree = "<group>"; };
+		B8E498C3D1CA26BF7135F3D2BBC8E173 /* XXYShapeRectangle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYShapeRectangle.m; sourceTree = "<group>"; };
+		B9688A53DA7418ABAD71B90BD684E569 /* XXYModels.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYModels.h; sourceTree = "<group>"; };
+		B98AC8E36F14D3353592F7FBF5109ECC /* XXYBezierPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYBezierPath.h; sourceTree = "<group>"; };
+		C0245F600541BD442CFC7629C862969B /* XXYLottie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYLottie.h; sourceTree = "<group>"; };
+		C12EB50F5F9D0D663679E5F1F8D5171D /* XXYMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYMask.m; sourceTree = "<group>"; };
+		C641CA615F652B40510B5A7EA8D9FD04 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C7CC3287D9A26C7CC01397F611E83C14 /* XXYShapeCircle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYShapeCircle.m; sourceTree = "<group>"; };
+		CD56FE0E6EADAE4373D5141AD0C79E99 /* XXYShapeCircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYShapeCircle.h; sourceTree = "<group>"; };
+		D2D612522FCE1619A46E3701267D0677 /* XXYRenderNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYRenderNode.h; sourceTree = "<group>"; };
+		D34B5D4AE656E9D2A605984E4B7BB290 /* XXYGradientFillRender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYGradientFillRender.h; sourceTree = "<group>"; };
+		D5202504B989CC5BCB03D6F24AADCD51 /* XXYAssetGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYAssetGroup.h; sourceTree = "<group>"; };
+		D7B413690C215775DDFB4B3F6D749BB4 /* XXYPathInterpolator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYPathInterpolator.m; sourceTree = "<group>"; };
+		D9E945D4ED9B4429808A990C909C2537 /* XXYPathAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYPathAnimator.m; sourceTree = "<group>"; };
+		DAB51A0B035190251E6F5AADDEF8C2D3 /* XXYAnimationView_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYAnimationView_Internal.h; sourceTree = "<group>"; };
+		DC1C336622D7E1E23C973A35E39E259E /* XXYNumberInterpolator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYNumberInterpolator.h; sourceTree = "<group>"; };
+		DC871EAD6CD5BC024B86DF8644FA6A21 /* XXYColorInterpolator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYColorInterpolator.m; sourceTree = "<group>"; };
+		DD8111DBD403F892D760182B952DA9C4 /* XXYBezierPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYBezierPath.m; sourceTree = "<group>"; };
+		DDDF57BA3232482FF63E23A27AAEB152 /* XYLottieiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYLottieiOS.debug.xcconfig; sourceTree = "<group>"; };
+		DDF208CD15356ED9F3DB02F3198B7644 /* UIColor+Expanded.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Expanded.h"; sourceTree = "<group>"; };
+		DF8F44EB9122A2C7BE3B3194D10298F6 /* XXYRoundedRectAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYRoundedRectAnimator.h; sourceTree = "<group>"; };
+		E170588043E37E2FE46FFCF7B2E2339C /* UIColor+Expanded.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expanded.m"; sourceTree = "<group>"; };
+		E1DCD8D0E1303572ED153D1F7EC3ABCF /* XXYTrimPathNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYTrimPathNode.m; sourceTree = "<group>"; };
+		E3DF8FDF130200B1070B3063C39665EF /* UIColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIColor.h; sourceTree = "<group>"; };
+		E4476E32201505936006F4111A0BC9CD /* XXYCacheProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYCacheProvider.h; sourceTree = "<group>"; };
+		E4BA9A5ABAAA7287530CA054B0BD8EC7 /* XXYMaskContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYMaskContainer.h; sourceTree = "<group>"; };
+		E582858187DA3ECA738F579BACCCE628 /* XXYComposition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYComposition.h; sourceTree = "<group>"; };
+		E66347388F35B61FB6E19921B34A5E74 /* XXYPlatformCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYPlatformCompat.h; sourceTree = "<group>"; };
+		EA70AAC8C404632C5936A7425904F241 /* Pods-XYLottieiOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XYLottieiOS_Example.modulemap"; sourceTree = "<group>"; };
+		EC5BC733A28B01B3D3F0AF8B065F4DD0 /* Pods-XYLottieiOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XYLottieiOS_Tests-Info.plist"; sourceTree = "<group>"; };
+		EDDABDF8FDAC6F146F557E8EE584B772 /* UIColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UIColor.m; sourceTree = "<group>"; };
+		EFA66FA5B61E1017FDE8F15BF37ECBA7 /* XXYPolystarAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYPolystarAnimator.h; sourceTree = "<group>"; };
+		F24C4DEFA5680DEA34D7CE98D8C2CF49 /* XXYAnimatedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYAnimatedControl.h; sourceTree = "<group>"; };
+		F31A21E3E8313433FFC9313DF2A04A51 /* XXYAnimationCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYAnimationCache.h; sourceTree = "<group>"; };
+		F44CF1BBE845FD319C95D09BFDF6E71E /* Pods-XYLottieiOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XYLottieiOS_Tests.modulemap"; sourceTree = "<group>"; };
+		F50999CA587D49A578D6DD872E520593 /* XXYRoundedRectAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYRoundedRectAnimator.m; sourceTree = "<group>"; };
+		F5A6347E592A4EAD799F0D7A04F5D867 /* XYLottieiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYLottieiOS.release.xcconfig; sourceTree = "<group>"; };
+		F5C1093C8E3D969AA5CF62B7798C9094 /* XXYShapeStar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYShapeStar.m; sourceTree = "<group>"; };
+		F6DC2AC7C1479E83E52CCAB313F933C6 /* Pods-XYLottieiOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYLottieiOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F763CBC85F9C00A60BFD1D071F8AF20B /* XXYLayerContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYLayerContainer.m; sourceTree = "<group>"; };
+		F8155BF48C5836D9340B58F0E2369722 /* Pods-XYLottieiOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XYLottieiOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F8BA8A8DB674EE7DCCA33C2F53D85AA1 /* XXYAnimatedSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYAnimatedSwitch.h; sourceTree = "<group>"; };
+		FB120F42941672A0B03C784A9CAD84BB /* XXYShapeStroke.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYShapeStroke.m; sourceTree = "<group>"; };
+		FBC03EA5F2B0FBA6E5645351AA8EDBD4 /* XXYStrokeRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYStrokeRenderer.h; sourceTree = "<group>"; };
+		FD7ACD0152986FC86AB161523819EBCB /* XXYRenderGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYRenderGroup.h; sourceTree = "<group>"; };
+		FDAD607B802E1CCFED3737BB757DC8EF /* XXYShapeTrimPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXYShapeTrimPath.h; sourceTree = "<group>"; };
+		FE4DBE266A18B394357B5276413AD583 /* XXYAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYAnimationView.m; sourceTree = "<group>"; };
+		FEF7F2B738793A1475EB8E293CC89774 /* XXYTransformInterpolator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYTransformInterpolator.m; sourceTree = "<group>"; };
+		FF5ACC72EAF464DD5B2CAF70B1A4254A /* XYLottieiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYLottieiOS-umbrella.h"; sourceTree = "<group>"; };
+		FFE8D2D06EBCF50C0533FB5286F07C7E /* XXYValueInterpolator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXYValueInterpolator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58025FF72FA38A0AD5EF4B5B6374EF98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E98F5D91ABCDFD8162082C4F67CB06F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D033396F1FFAA56585E671261F7FA78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C76E43B47C754EB3E205EABBDD80191 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA5A6624750864CD551A4E70EC81C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE596F427BA963292C85062C0E1BE5A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		265AA98C82E4F359FB6705EA42610A64 /* AnimatorNodes */ = {
+			isa = PBXGroup;
+			children = (
+				17C8F936264922E454C04CA4C003D8F6 /* XXYCircleAnimator.h */,
+				23F695A3A3DE097B19984C1E20857E86 /* XXYCircleAnimator.m */,
+				9DE013EE0A86C6DA648C56A355CD5D1B /* XXYPathAnimator.h */,
+				D9E945D4ED9B4429808A990C909C2537 /* XXYPathAnimator.m */,
+				28D55C6E99F5C3F041B593A633962097 /* XXYPolygonAnimator.h */,
+				56809AF2E38BA9D557D2A06D85A6A7C5 /* XXYPolygonAnimator.m */,
+				EFA66FA5B61E1017FDE8F15BF37ECBA7 /* XXYPolystarAnimator.h */,
+				B556697E11E59B2F39F7B9F239A042C2 /* XXYPolystarAnimator.m */,
+				DF8F44EB9122A2C7BE3B3194D10298F6 /* XXYRoundedRectAnimator.h */,
+				F50999CA587D49A578D6DD872E520593 /* XXYRoundedRectAnimator.m */,
+			);
+			path = AnimatorNodes;
+			sourceTree = "<group>";
+		};
+		28B7C094871813F1DCA49459040FE523 /* MacCompatability */ = {
+			isa = PBXGroup;
+			children = (
+				0BA9940B4E459EFCDBD5A71913FEE41D /* CALayer+Compat.h */,
+				1B7BD25B71992B88AF53E3CD5244D134 /* CALayer+Compat.m */,
+				E66347388F35B61FB6E19921B34A5E74 /* XXYPlatformCompat.h */,
+				B124902A69A07FD6643953DC1C1E573A /* NSValue+Compat.h */,
+				79BB26A87022EA1A1DFB79D305BFC4A0 /* NSValue+Compat.m */,
+				E3DF8FDF130200B1070B3063C39665EF /* UIColor.h */,
+				EDDABDF8FDAC6F146F557E8EE584B772 /* UIColor.m */,
+			);
+			name = MacCompatability;
+			path = XYLottieiOS/Classes/MacCompatability;
+			sourceTree = "<group>";
+		};
+		3206DC777DA9314A47595128DE3273E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56AA54EF0B6367A116C192B653342328 /* Pods_XYLottieiOS_Example.framework */,
+				447E2739A1BBBA173B487BDC80B4EF59 /* Pods_XYLottieiOS_Tests.framework */,
+				1A7742324E9A1C5E3D4BD44D75D15348 /* XYLottieiOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B843ECA28695E9EB586C71A561A1CE2 /* RenderNodes */ = {
+			isa = PBXGroup;
+			children = (
+				9136A6E4CF7FC0F4D2B20992C9B88A2A /* XXYFillRenderer.h */,
+				A29F8FFCFA5AC560BCE853BE6CAC2D80 /* XXYFillRenderer.m */,
+				D34B5D4AE656E9D2A605984E4B7BB290 /* XXYGradientFillRender.h */,
+				8E5E63EE02C02D1C33831F540E4E5C2B /* XXYGradientFillRender.m */,
+				FD7ACD0152986FC86AB161523819EBCB /* XXYRenderGroup.h */,
+				2BEED014E7582AEC9BE0E69EF80EC24E /* XXYRenderGroup.m */,
+				4AAE3015E5B50C364736216A62D3B430 /* XXYRepeaterRenderer.h */,
+				87264C81E37D1CE121CE5289002F75D2 /* XXYRepeaterRenderer.m */,
+				FBC03EA5F2B0FBA6E5645351AA8EDBD4 /* XXYStrokeRenderer.h */,
+				5B761340DE7A0E24009A8E75FD067DC5 /* XXYStrokeRenderer.m */,
+			);
+			path = RenderNodes;
+			sourceTree = "<group>";
+		};
+		3E91218224D411E011DFF705EE3D8722 /* ManipulatorNodes */ = {
+			isa = PBXGroup;
+			children = (
+				A433ACCA53B29B83C9491A575A2A2456 /* XXYTrimPathNode.h */,
+				E1DCD8D0E1303572ED153D1F7EC3ABCF /* XXYTrimPathNode.m */,
+			);
+			path = ManipulatorNodes;
+			sourceTree = "<group>";
+		};
+		4522117D9B91EBB40DE41D52B7FFE9F7 /* AnimatableProperties */ = {
+			isa = PBXGroup;
+			children = (
+				26EDEE1912A8C5B864ABE077132DBBF1 /* XXYBezierData.h */,
+				7F4AE0158FF5EA87CB9EE2F9F6EE898C /* XXYBezierData.m */,
+				4767D1E53BA18D6E58BB32876E64AADA /* XXYKeyframe.h */,
+				A1F73997FE9DCA5DFD7B3BCEC7466911 /* XXYKeyframe.m */,
+			);
+			name = AnimatableProperties;
+			path = XYLottieiOS/Classes/AnimatableProperties;
+			sourceTree = "<group>";
+		};
+		4A2FA0E115E799A2142CC41A993FAD5C /* Pods-XYLottieiOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EA70AAC8C404632C5936A7425904F241 /* Pods-XYLottieiOS_Example.modulemap */,
+				4AE53F164C5AC7FFE180072EB2AF4369 /* Pods-XYLottieiOS_Example-acknowledgements.markdown */,
+				4636255FB85948BB48B92C58C5FBDEB4 /* Pods-XYLottieiOS_Example-acknowledgements.plist */,
+				2A2B2ED0ADE2A6DB9E28FAF398D0500C /* Pods-XYLottieiOS_Example-dummy.m */,
+				F8155BF48C5836D9340B58F0E2369722 /* Pods-XYLottieiOS_Example-frameworks.sh */,
+				78C835E915298BB594F78115F35A640C /* Pods-XYLottieiOS_Example-Info.plist */,
+				1C72E8B38363C1DAFEA9949FB382598F /* Pods-XYLottieiOS_Example-umbrella.h */,
+				A8EB3D1122AF0D9F57F7FF882B57FD47 /* Pods-XYLottieiOS_Example.debug.xcconfig */,
+				810DA799AE92D771B0A2E0EB56233C9F /* Pods-XYLottieiOS_Example.release.xcconfig */,
+			);
+			name = "Pods-XYLottieiOS_Example";
+			path = "Target Support Files/Pods-XYLottieiOS_Example";
+			sourceTree = "<group>";
+		};
+		4C129A10DBE054166DF9866BBE27E81D /* PublicHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				F24C4DEFA5680DEA34D7CE98D8C2CF49 /* XXYAnimatedControl.h */,
+				F8BA8A8DB674EE7DCCA33C2F53D85AA1 /* XXYAnimatedSwitch.h */,
+				F31A21E3E8313433FFC9313DF2A04A51 /* XXYAnimationCache.h */,
+				7E323BC838824B82FD36ED188450E9FB /* XXYAnimationTransitionController.h */,
+				952A20C29098F89D701A9AFA11531E5A /* XXYAnimationView.h */,
+				68592AC362A7BE11D9144C003C22A181 /* XXYAnimationView_Compat.h */,
+				E4476E32201505936006F4111A0BC9CD /* XXYCacheProvider.h */,
+				E582858187DA3ECA738F579BACCCE628 /* XXYComposition.h */,
+				C0245F600541BD442CFC7629C862969B /* XXYLottie.h */,
+			);
+			name = PublicHeaders;
+			path = XYLottieiOS/Classes/PublicHeaders;
+			sourceTree = "<group>";
+		};
+		50F556F0DAB2B23F113B6A24AC23DD5C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6C77C3408B3469EBB672F1BF9611224 /* XYLottieiOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		53405127E7D18C9D523D358C97CEDCFD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				815E59B64EC981F8C0AD8B9D09005303 /* CGGeometry+XXYAdditions.h */,
+				7D272750B9CFBDF5684A4892083FA355 /* CGGeometry+XXYAdditions.m */,
+				DDF208CD15356ED9F3DB02F3198B7644 /* UIColor+Expanded.h */,
+				E170588043E37E2FE46FFCF7B2E2339C /* UIColor+Expanded.m */,
+				B98AC8E36F14D3353592F7FBF5109ECC /* XXYBezierPath.h */,
+				DD8111DBD403F892D760182B952DA9C4 /* XXYBezierPath.m */,
+				822D59CD62D17E494BB23761AFB67914 /* XXYHelpers.h */,
+				78E6368F3C070A4AD9765445CEF1CAC7 /* XXYRadialGradientLayer.h */,
+				209B6CE5F8C9EE3E9F13A10C4E10CC8F /* XXYRadialGradientLayer.m */,
+			);
+			name = Extensions;
+			path = XYLottieiOS/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		61C4855F187A56BD8D22452857EF941B /* RenderSystem */ = {
+			isa = PBXGroup;
+			children = (
+				82FF49E6E0096BD57ECB0606A6EB6247 /* XXYAnimatorNode.h */,
+				6C9CD6BD3E2CF50F52C464EE75E2EC6C /* XXYAnimatorNode.m */,
+				D2D612522FCE1619A46E3701267D0677 /* XXYRenderNode.h */,
+				28DD58AF6363D9FEA6FF019D09A5CE10 /* XXYRenderNode.m */,
+				265AA98C82E4F359FB6705EA42610A64 /* AnimatorNodes */,
+				FFAD570736DF2BC8B34ACEEA2EFF2CDA /* InterpolatorNodes */,
+				3E91218224D411E011DFF705EE3D8722 /* ManipulatorNodes */,
+				3B843ECA28695E9EB586C71A561A1CE2 /* RenderNodes */,
+			);
+			name = RenderSystem;
+			path = XYLottieiOS/Classes/RenderSystem;
+			sourceTree = "<group>";
+		};
+		6990C4ECF8420B4E730D6F1CF3FB632C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				441DFDBD26A33409490550AB0B0FD55A /* LICENSE */,
+				C641CA615F652B40510B5A7EA8D9FD04 /* README.md */,
+				1E1A79ECABC3565C5A578D1E80EFE8EE /* XYLottieiOS.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7D2B62201AE4214750CBAA0C965FD5ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				464C2FDD1C67B7B6275AA8D50FF434DC /* XYLottieiOS.modulemap */,
+				36E3CE04EC054CE06DA6FEF41236251C /* XYLottieiOS-dummy.m */,
+				7DEAA2026A20417DE0F15C94D28F8AF6 /* XYLottieiOS-Info.plist */,
+				82DB74E1590078194E12CC5540A59763 /* XYLottieiOS-prefix.pch */,
+				FF5ACC72EAF464DD5B2CAF70B1A4254A /* XYLottieiOS-umbrella.h */,
+				DDDF57BA3232482FF63E23A27AAEB152 /* XYLottieiOS.debug.xcconfig */,
+				F5A6347E592A4EAD799F0D7A04F5D867 /* XYLottieiOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XYLottieiOS";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CDC894B007958299988A9EB05EF9B51F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D152CD2E81D30214ED3EFA6671049A6 /* XXYAsset.h */,
+				B07C00951F2A22C7E5A5E79B5A776385 /* XXYAsset.m */,
+				D5202504B989CC5BCB03D6F24AADCD51 /* XXYAssetGroup.h */,
+				5338FA27E8B8B2F3624C069AD7B0BE59 /* XXYAssetGroup.m */,
+				5FC83A2D1A892CCBF1945D9350FF751C /* XXYLayer.h */,
+				9038A3C5CD6EDAA32DFBF9A7C52D6526 /* XXYLayer.m */,
+				4F41076BD1AAF5A2046A0907FFA3A9E5 /* XXYLayerGroup.h */,
+				301BF138CCABE0C3954477713AA68E6C /* XXYLayerGroup.m */,
+				2B351F19694E5EED1A1416B3AB5152A3 /* XXYMask.h */,
+				C12EB50F5F9D0D663679E5F1F8D5171D /* XXYMask.m */,
+				B9688A53DA7418ABAD71B90BD684E569 /* XXYModels.h */,
+				CD56FE0E6EADAE4373D5141AD0C79E99 /* XXYShapeCircle.h */,
+				C7CC3287D9A26C7CC01397F611E83C14 /* XXYShapeCircle.m */,
+				B757BBD4DCD3066B729F4238215524FE /* XXYShapeFill.h */,
+				5CEDA23F4C168B6BEE2450268F207C79 /* XXYShapeFill.m */,
+				B059F3CCC01A0DE1C091CC7E2D6EAEC1 /* XXYShapeGradientFill.h */,
+				4CD86359619CC769A1976750B40B1C99 /* XXYShapeGradientFill.m */,
+				96A19CCE8BF04E7DB2988328E3E25420 /* XXYShapeGroup.h */,
+				6B037D3070FD6E2489F21D699231DA84 /* XXYShapeGroup.m */,
+				0FB0C2B44402201D854D9DACA56EE696 /* XXYShapePath.h */,
+				3EBF1B6F8202EEFB048E785502C2EC0A /* XXYShapePath.m */,
+				7ED37B9B6DF907A5FDC2CB425D991B4F /* XXYShapeRectangle.h */,
+				B8E498C3D1CA26BF7135F3D2BBC8E173 /* XXYShapeRectangle.m */,
+				A7AA769BDCF844E58BC64D9EF396671E /* XXYShapeRepeater.h */,
+				356C9C9F8361A343D7F288DF1DF691C0 /* XXYShapeRepeater.m */,
+				21E1A0340115A914E74E7B0359AB655B /* XXYShapeStar.h */,
+				F5C1093C8E3D969AA5CF62B7798C9094 /* XXYShapeStar.m */,
+				ABF43FA99B653423F60A4A60C117902B /* XXYShapeStroke.h */,
+				FB120F42941672A0B03C784A9CAD84BB /* XXYShapeStroke.m */,
+				B44E85E2648A377D7E03CAABF380BBBC /* XXYShapeTransform.h */,
+				907876F9A5456A03B1ECECA9032D0A47 /* XXYShapeTransform.m */,
+				FDAD607B802E1CCFED3737BB757DC8EF /* XXYShapeTrimPath.h */,
+				2696FEA6599E4708C5A2A150C85BA3D5 /* XXYShapeTrimPath.m */,
+			);
+			name = Models;
+			path = XYLottieiOS/Classes/Models;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				50F556F0DAB2B23F113B6A24AC23DD5C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3206DC777DA9314A47595128DE3273E9 /* Products */,
+				E59BF95DC5D1420C1C4F0D34F29DC8FB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2AEF8F93E27A1837029F0DC20A66427 /* AnimatableLayers */ = {
+			isa = PBXGroup;
+			children = (
+				82758A21426698247790FE874AF681AC /* XXYCompositionContainer.h */,
+				4DF7AE5C86F6D26A62C32EBA273C6494 /* XXYCompositionContainer.m */,
+				A461737E46621EF11FFD0AA5D75F1B73 /* XXYLayerContainer.h */,
+				F763CBC85F9C00A60BFD1D071F8AF20B /* XXYLayerContainer.m */,
+				E4BA9A5ABAAA7287530CA054B0BD8EC7 /* XXYMaskContainer.h */,
+				3C0C5870FE8449FDE446E282BB845C06 /* XXYMaskContainer.m */,
+			);
+			name = AnimatableLayers;
+			path = XYLottieiOS/Classes/AnimatableLayers;
+			sourceTree = "<group>";
+		};
+		DCD0C69EF6348DE47E933A216E5A957D /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				4782BE873FDD56212CFC7BB8BC2ED0A1 /* XXYAnimatedControl.m */,
+				47E71059D59EA0DD90B0533BE085ACC4 /* XXYAnimatedSwitch.m */,
+				84DB9F0899CDD452BEF67A8C4B59294D /* XXYAnimationCache.m */,
+				3FC4DCF53E845CECEEF40BEE08585207 /* XXYAnimationTransitionController.m */,
+				FE4DBE266A18B394357B5276413AD583 /* XXYAnimationView.m */,
+				DAB51A0B035190251E6F5AADDEF8C2D3 /* XXYAnimationView_Internal.h */,
+				6B6A1A200646343259F8B96088F19A50 /* XXYCacheProvider.m */,
+				847D10E239513AE9EB2B0D0D032776CB /* XXYComposition.m */,
+			);
+			name = Private;
+			path = XYLottieiOS/Classes/Private;
+			sourceTree = "<group>";
+		};
+		E59BF95DC5D1420C1C4F0D34F29DC8FB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A2FA0E115E799A2142CC41A993FAD5C /* Pods-XYLottieiOS_Example */,
+				F680CED8C76DDE63069A6408B2190366 /* Pods-XYLottieiOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F680CED8C76DDE63069A6408B2190366 /* Pods-XYLottieiOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F44CF1BBE845FD319C95D09BFDF6E71E /* Pods-XYLottieiOS_Tests.modulemap */,
+				A8B86096472A027DEAD0CE4951FD6645 /* Pods-XYLottieiOS_Tests-acknowledgements.markdown */,
+				7AE5556CC96F5515E0F126BC54569388 /* Pods-XYLottieiOS_Tests-acknowledgements.plist */,
+				B340F27EA3EF717599E8D172BCEA18FE /* Pods-XYLottieiOS_Tests-dummy.m */,
+				EC5BC733A28B01B3D3F0AF8B065F4DD0 /* Pods-XYLottieiOS_Tests-Info.plist */,
+				7078DAD0D926B44071FD22BCA3CC8E70 /* Pods-XYLottieiOS_Tests-umbrella.h */,
+				AF0841CBDC02B6FA8874651FE32DC11E /* Pods-XYLottieiOS_Tests.debug.xcconfig */,
+				F6DC2AC7C1479E83E52CCAB313F933C6 /* Pods-XYLottieiOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-XYLottieiOS_Tests";
+			path = "Target Support Files/Pods-XYLottieiOS_Tests";
+			sourceTree = "<group>";
+		};
+		F6C77C3408B3469EBB672F1BF9611224 /* XYLottieiOS */ = {
+			isa = PBXGroup;
+			children = (
+				D2AEF8F93E27A1837029F0DC20A66427 /* AnimatableLayers */,
+				4522117D9B91EBB40DE41D52B7FFE9F7 /* AnimatableProperties */,
+				53405127E7D18C9D523D358C97CEDCFD /* Extensions */,
+				28B7C094871813F1DCA49459040FE523 /* MacCompatability */,
+				CDC894B007958299988A9EB05EF9B51F /* Models */,
+				6990C4ECF8420B4E730D6F1CF3FB632C /* Pod */,
+				DCD0C69EF6348DE47E933A216E5A957D /* Private */,
+				4C129A10DBE054166DF9866BBE27E81D /* PublicHeaders */,
+				61C4855F187A56BD8D22452857EF941B /* RenderSystem */,
+				7D2B62201AE4214750CBAA0C965FD5ED /* Support Files */,
+			);
+			name = XYLottieiOS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FFAD570736DF2BC8B34ACEEA2EFF2CDA /* InterpolatorNodes */ = {
+			isa = PBXGroup;
+			children = (
+				2AEE2A8038CBDDD018CE7FCA78640A76 /* XXYArrayInterpolator.h */,
+				9DE6184113B111F1BCEE1AE662D09AB9 /* XXYArrayInterpolator.m */,
+				9D32B435DD92A7771EC76A4B14D5DE32 /* XXYColorInterpolator.h */,
+				DC871EAD6CD5BC024B86DF8644FA6A21 /* XXYColorInterpolator.m */,
+				DC1C336622D7E1E23C973A35E39E259E /* XXYNumberInterpolator.h */,
+				2786917E81E58BC451AEBB506EFFEA9C /* XXYNumberInterpolator.m */,
+				83BD3B15BEFF59388B854604B801DF06 /* XXYPathInterpolator.h */,
+				D7B413690C215775DDFB4B3F6D749BB4 /* XXYPathInterpolator.m */,
+				340756678810C690015BFAC121151E76 /* XXYPointInterpolator.h */,
+				23141803E7E650B93116CF947D186F58 /* XXYPointInterpolator.m */,
+				61853C41017CB3C0699845B1655F46C8 /* XXYSizeInterpolator.h */,
+				9BB8DCC5BCE917A5ED27F3F1E0AD2B40 /* XXYSizeInterpolator.m */,
+				2A51752F35C7E01A84CF5374D9B171F2 /* XXYTransformInterpolator.h */,
+				FEF7F2B738793A1475EB8E293CC89774 /* XXYTransformInterpolator.m */,
+				AF5024243F3CAA19DEA3C33D31DB0724 /* XXYValueInterpolator.h */,
+				FFE8D2D06EBCF50C0533FB5286F07C7E /* XXYValueInterpolator.m */,
+			);
+			path = InterpolatorNodes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		292179747A16D3D7C18114F528F985B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4587D96F0C59A2EF2937C2E60AE95959 /* Pods-XYLottieiOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0F232EFD708D28609138614F46521C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D978A2628BDF0E4EA4CCB10E8A7AF944 /* Pods-XYLottieiOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA425BB673D089486776092F7D2D6696 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862EDA198BF4D2D442C49BFD59DF81EF /* CALayer+Compat.h in Headers */,
+				26C041B79BE742E715A0F99F0B9911B7 /* CGGeometry+XXYAdditions.h in Headers */,
+				B514B57CB5C3A0C569D2D15EFA7F038E /* XXYAnimatedControl.h in Headers */,
+				605B8F886E46379CA3094631F7974B3D /* XXYAnimatedSwitch.h in Headers */,
+				B3AFCF31CE9C87A687ECC349BBE6D21B /* XXYAnimationCache.h in Headers */,
+				C1A9245824702DB2A1523506A95BF3B1 /* XXYAnimationTransitionController.h in Headers */,
+				AB31BA0FE405C7F078990C375648281F /* XXYAnimationView.h in Headers */,
+				D259766B423023263BA39FD4C682960D /* XXYAnimationView_Compat.h in Headers */,
+				A48AB200030AB7AE6C1B00A6428F674C /* XXYCacheProvider.h in Headers */,
+				62BD3AF74655885C2F35ED73D22E99DD /* XXYComposition.h in Headers */,
+				709A138AA026C3F5B30F4615D2CCF1E0 /* XXYPlatformCompat.h in Headers */,
+				57779D4685958233977AF3547BB1A384 /* XXYLottie.h in Headers */,
+				C7E77867CD3E58582D38EBA70A143E2A /* NSValue+Compat.h in Headers */,
+				C642A6D63A09208CBE308B9398A1BD09 /* UIColor+Expanded.h in Headers */,
+				A19739A0C18CD497A2264596067B8901 /* UIColor.h in Headers */,
+				D86F6DCC9394C933F55862D10752661D /* XXYAnimationView_Internal.h in Headers */,
+				130DC420B27628B2AFF27E01DC6B344B /* XXYAnimatorNode.h in Headers */,
+				2F21AD8CC8DAE78C47176B9F7A2598D6 /* XXYArrayInterpolator.h in Headers */,
+				C1D222DDC014EB58E8082FEDD24C005F /* XXYAsset.h in Headers */,
+				64B3800CE1E0D45CF5ECC7DE49704D97 /* XXYAssetGroup.h in Headers */,
+				40CCBA5B2D54CC348D66796892406A69 /* XXYBezierData.h in Headers */,
+				D8486C13D4A18FF7E464AB6A8D381FB7 /* XXYBezierPath.h in Headers */,
+				1F2B09D8D4A682A29FDB82BA0C8D1D58 /* XXYCircleAnimator.h in Headers */,
+				A3A35E33F2A4FF6E2ACCEF224BD5F378 /* XXYColorInterpolator.h in Headers */,
+				26DFA280447F0567B9E3AC412B5248B3 /* XXYCompositionContainer.h in Headers */,
+				AA6F049DE1908E2429E0D64BB0F6ECF7 /* XXYFillRenderer.h in Headers */,
+				658287E49F7E8E1FCCA26BF4817A5953 /* XXYGradientFillRender.h in Headers */,
+				EDB02BCB4D78EEBB6CE6632538108DEC /* XXYHelpers.h in Headers */,
+				9F12837CE5EC437D4E08706C53B1445F /* XXYKeyframe.h in Headers */,
+				93E67976567ACEB49BF155793C1AA4D7 /* XXYLayer.h in Headers */,
+				A200389DB3C6E6F882FAD397DFCD8951 /* XXYLayerContainer.h in Headers */,
+				7250E544630623DC64A70111F40F7CCD /* XXYLayerGroup.h in Headers */,
+				0764318AB2D612AD61784EA5868AE18D /* XXYMask.h in Headers */,
+				06635770AA041B875529470F0A6DEE0C /* XXYMaskContainer.h in Headers */,
+				B2C4C7D8057C9509CFBBA6546E1D9205 /* XXYModels.h in Headers */,
+				75883A4044C6EE868F6190278AA7A602 /* XXYNumberInterpolator.h in Headers */,
+				91A0D37A09A95848F96E84A15631EE2F /* XXYPathAnimator.h in Headers */,
+				2B5E58A99C795D80B2D1D1A0250B5FF3 /* XXYPathInterpolator.h in Headers */,
+				15725D5665E974FCF25A985F5721499E /* XXYPointInterpolator.h in Headers */,
+				15BDC2AD710AE96DED3655B09992529F /* XXYPolygonAnimator.h in Headers */,
+				B0182E4BA1C08863BF9F13CDDF0EFDE2 /* XXYPolystarAnimator.h in Headers */,
+				013BEFB29780DD11E754869969D691BE /* XXYRadialGradientLayer.h in Headers */,
+				5B23EFCD5608921FCA45F555775064C1 /* XXYRenderGroup.h in Headers */,
+				F7DBE9518105256D13EA8182D47758DF /* XXYRenderNode.h in Headers */,
+				A87FDBD09DB5D182F5875E77A65A833E /* XXYRepeaterRenderer.h in Headers */,
+				68A5E620933846484A10A928ECAE6D55 /* XXYRoundedRectAnimator.h in Headers */,
+				27A01ED684FD289FD706785D3960817D /* XXYShapeCircle.h in Headers */,
+				6DABB0C0E4C0E783B52D574EDF69D499 /* XXYShapeFill.h in Headers */,
+				AEA6CCF54FA6B5045B0CADBE30921A67 /* XXYShapeGradientFill.h in Headers */,
+				887175DCC63CB09CA7FC8DA7A9557D05 /* XXYShapeGroup.h in Headers */,
+				CC2DF065CF604A40903070E75E34A2E8 /* XXYShapePath.h in Headers */,
+				74FC19D46E4CE0EF7E29AFF83193435C /* XXYShapeRectangle.h in Headers */,
+				FCC91468FD36F16D38B085E732826D6A /* XXYShapeRepeater.h in Headers */,
+				2028A6D78F0DA8406ED1F4BE0CC126F5 /* XXYShapeStar.h in Headers */,
+				0FD81645BD0996E829D29D61D4B2E545 /* XXYShapeStroke.h in Headers */,
+				C14B0F25799C29495D34B90FF9380416 /* XXYShapeTransform.h in Headers */,
+				A6E6C951A752FAAA1AEED09833B2EC2D /* XXYShapeTrimPath.h in Headers */,
+				AD6B48F21F9179F892F539063FEA1370 /* XXYSizeInterpolator.h in Headers */,
+				00FA14272A6528542117B57A450A92CD /* XXYStrokeRenderer.h in Headers */,
+				8D38900F59A82C6A1C6FAE86E47D0A89 /* XXYTransformInterpolator.h in Headers */,
+				A5333E5872D80D7A47F4CB19441A7520 /* XXYTrimPathNode.h in Headers */,
+				1FBB61B31985F75D066A3EFC32363721 /* XXYValueInterpolator.h in Headers */,
+				18D851F2C3ABB648DCC0528F8639DE68 /* XYLottieiOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		11CEA1EB04D74D83EF40A8AD9A7AE682 /* Pods-XYLottieiOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C06F6A92CD4E212A6382C4D09B033ED4 /* Build configuration list for PBXNativeTarget "Pods-XYLottieiOS_Tests" */;
+			buildPhases = (
+				7A0F232EFD708D28609138614F46521C /* Headers */,
+				3684F7245537A451B1F9112F5F2C0258 /* Sources */,
+				D033396F1FFAA56585E671261F7FA78B /* Frameworks */,
+				9C668CED2B3DCAA8634C7EDAC40D9207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FECD5103FF788DF34E9E19B1182482CD /* PBXTargetDependency */,
+			);
+			name = "Pods-XYLottieiOS_Tests";
+			productName = "Pods-XYLottieiOS_Tests";
+			productReference = 447E2739A1BBBA173B487BDC80B4EF59 /* Pods_XYLottieiOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		907B85A5F2B81396DE28FEEB125D28E0 /* Pods-XYLottieiOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE039ED2380B3C5986FD6FAB88801749 /* Build configuration list for PBXNativeTarget "Pods-XYLottieiOS_Example" */;
+			buildPhases = (
+				292179747A16D3D7C18114F528F985B6 /* Headers */,
+				172B9528AE034C096C4CB80208881512 /* Sources */,
+				DBA5A6624750864CD551A4E70EC81C89 /* Frameworks */,
+				45E41C6349C1EE042371C99062C624BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				372D2D2039F276F9392729060CA6C6A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-XYLottieiOS_Example";
+			productName = "Pods-XYLottieiOS_Example";
+			productReference = 56AA54EF0B6367A116C192B653342328 /* Pods_XYLottieiOS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		934AC71F855E711F99DE1FB08D46A26E /* XYLottieiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3A2AEB7C390004382663B307401AFB6 /* Build configuration list for PBXNativeTarget "XYLottieiOS" */;
+			buildPhases = (
+				EA425BB673D089486776092F7D2D6696 /* Headers */,
+				D8D93958C6BB8D93B6EDB3EEB343C5D0 /* Sources */,
+				58025FF72FA38A0AD5EF4B5B6374EF98 /* Frameworks */,
+				D63441CAF69B2E07E2EBC36F28F5174B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYLottieiOS;
+			productName = XYLottieiOS;
+			productReference = 1A7742324E9A1C5E3D4BD44D75D15348 /* XYLottieiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3206DC777DA9314A47595128DE3273E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				907B85A5F2B81396DE28FEEB125D28E0 /* Pods-XYLottieiOS_Example */,
+				11CEA1EB04D74D83EF40A8AD9A7AE682 /* Pods-XYLottieiOS_Tests */,
+				934AC71F855E711F99DE1FB08D46A26E /* XYLottieiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45E41C6349C1EE042371C99062C624BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C668CED2B3DCAA8634C7EDAC40D9207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63441CAF69B2E07E2EBC36F28F5174B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		172B9528AE034C096C4CB80208881512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCCAF952645AA40E94DBB4F7E08D023 /* Pods-XYLottieiOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3684F7245537A451B1F9112F5F2C0258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CA6600E8A8294D52BB7A71771E5848 /* Pods-XYLottieiOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D93958C6BB8D93B6EDB3EEB343C5D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5955C13CB39AF81BA31BC86AF1FC99C5 /* CALayer+Compat.m in Sources */,
+				A1BB58B379E50764C85779FC66D15721 /* CGGeometry+XXYAdditions.m in Sources */,
+				A67146B3D16DE225E9E6234183B53409 /* NSValue+Compat.m in Sources */,
+				656DD8733AB3A024D57F5A3192793066 /* UIColor+Expanded.m in Sources */,
+				7448D0C8A5B7116F37727EA97C883A48 /* UIColor.m in Sources */,
+				0A5FB190B6DB376D700CDDCB543FD5D6 /* XXYAnimatedControl.m in Sources */,
+				7C286DCAD3687F05A33AD1D98DF8A3C5 /* XXYAnimatedSwitch.m in Sources */,
+				DD19835A16FF340A32D772EEEE896C37 /* XXYAnimationCache.m in Sources */,
+				90EC4EE4E82C401298C5EF22054B5DCA /* XXYAnimationTransitionController.m in Sources */,
+				EDF9B06D683E216EF7B857675B1D1BCB /* XXYAnimationView.m in Sources */,
+				22DDD7DFE65459E361929E70FC7989F8 /* XXYAnimatorNode.m in Sources */,
+				8D2990326A6AD7F9CB441C376FE6C67D /* XXYArrayInterpolator.m in Sources */,
+				3D6242EEA2CFF05468C0EB480CCD2526 /* XXYAsset.m in Sources */,
+				781BF6C3ECE567B269544A46DC795A19 /* XXYAssetGroup.m in Sources */,
+				F04ADF4C8ACA106A76BEAEC702B235E1 /* XXYBezierData.m in Sources */,
+				5C3B64018B635EC552A6748131DC1F01 /* XXYBezierPath.m in Sources */,
+				4F456C63A53D8270228B9DB71CB8B944 /* XXYCacheProvider.m in Sources */,
+				D4FCE716158292FC323D4E78A30C4896 /* XXYCircleAnimator.m in Sources */,
+				C0BBA4B3FCDFAFCFEB256D6B85318B8D /* XXYColorInterpolator.m in Sources */,
+				6FE2CC073EC744A45BB9469541C4669B /* XXYComposition.m in Sources */,
+				F305B97CE257332F38306C88A3ED105C /* XXYCompositionContainer.m in Sources */,
+				0F5357A06DC81767656979145B6A8212 /* XXYFillRenderer.m in Sources */,
+				8FF7D40E6081FDE2E379264A2EE94AD4 /* XXYGradientFillRender.m in Sources */,
+				3508AD89356E4D802E14395810802423 /* XXYKeyframe.m in Sources */,
+				4ED50E3952D9CD3882EFA2F5565C9B34 /* XXYLayer.m in Sources */,
+				F7D3FA08DFA391F18D6F7083EDA2ACA0 /* XXYLayerContainer.m in Sources */,
+				072AD6AC2EC4AC8152F3E38D2297322A /* XXYLayerGroup.m in Sources */,
+				9864038F02086D5521A2A567EEDBBA94 /* XXYMask.m in Sources */,
+				C8EA5AA1895AED570BA779A5335AC17B /* XXYMaskContainer.m in Sources */,
+				4DAE6734877F66DABAA0C8EEA6E7AF71 /* XXYNumberInterpolator.m in Sources */,
+				F4F39CC217E16DDBC8A84E90CE91514F /* XXYPathAnimator.m in Sources */,
+				D5DEBBDA109AAB06688A86A0588780EA /* XXYPathInterpolator.m in Sources */,
+				258787D5DEE2834B2E9F36A1FA3D19DC /* XXYPointInterpolator.m in Sources */,
+				57E8A7347BCC87D11FA1E8ABA2493FCC /* XXYPolygonAnimator.m in Sources */,
+				6B558FAD7F43C9C5C6351A8A111F7F20 /* XXYPolystarAnimator.m in Sources */,
+				CDB2241F5C42A2F6F8DA713D348BBE3B /* XXYRadialGradientLayer.m in Sources */,
+				B125C92D59F2AEDB59DF64C411B7071C /* XXYRenderGroup.m in Sources */,
+				2773A0884C1A4C1ABFBB8D88264C1C04 /* XXYRenderNode.m in Sources */,
+				0215D38E50D685F3172B6CAEBAF413AE /* XXYRepeaterRenderer.m in Sources */,
+				49A6C6C26C69E7941CE885CB478B078C /* XXYRoundedRectAnimator.m in Sources */,
+				2196C9D3611DB2643F5063386C7A7279 /* XXYShapeCircle.m in Sources */,
+				3FA628F70C5F96E57387382829CAF32D /* XXYShapeFill.m in Sources */,
+				AB24C153DB1C25B5E890789B87A8DCC0 /* XXYShapeGradientFill.m in Sources */,
+				1282218794DE6DFF35F756826D1B27DC /* XXYShapeGroup.m in Sources */,
+				CAF6D8B0DC5469328F1D6D7924709818 /* XXYShapePath.m in Sources */,
+				ED0C2D17B0A1EC314051A1861531EAA2 /* XXYShapeRectangle.m in Sources */,
+				BBDB55C34FE2BBA62788506D06EE5EB9 /* XXYShapeRepeater.m in Sources */,
+				DABD2D706952E7D6221BF648565AB3E4 /* XXYShapeStar.m in Sources */,
+				5EA6138B1AA0F95636D7E234A9382162 /* XXYShapeStroke.m in Sources */,
+				750FE3618E3E48C03266E66FA0271382 /* XXYShapeTransform.m in Sources */,
+				5162FED10FC5C1184D2B101914030927 /* XXYShapeTrimPath.m in Sources */,
+				CA4446DA2C4148A98FA778F427E6A94B /* XXYSizeInterpolator.m in Sources */,
+				B62914540C23469C53B5CA4BE0360856 /* XXYStrokeRenderer.m in Sources */,
+				C541C2AFD14A3F0E9C6FF53A32F5C294 /* XXYTransformInterpolator.m in Sources */,
+				407A7209752271EE594F5F4B0F782347 /* XXYTrimPathNode.m in Sources */,
+				6A9E530277FEA575DD40B67F1C337899 /* XXYValueInterpolator.m in Sources */,
+				01819F18B11B0D6F47503FD60BE24899 /* XYLottieiOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		372D2D2039F276F9392729060CA6C6A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XYLottieiOS;
+			target = 934AC71F855E711F99DE1FB08D46A26E /* XYLottieiOS */;
+			targetProxy = A74297E5860D6DF5EA27CE8FF41FE71E /* PBXContainerItemProxy */;
+		};
+		FECD5103FF788DF34E9E19B1182482CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XYLottieiOS_Example";
+			target = 907B85A5F2B81396DE28FEEB125D28E0 /* Pods-XYLottieiOS_Example */;
+			targetProxy = F2EEEBE8B866F769FFEE00B8955F2076 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1473A2ACB3D4793F0786AE0B9A618239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0841CBDC02B6FA8874651FE32DC11E /* Pods-XYLottieiOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XYLottieiOS_Tests/Pods-XYLottieiOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XYLottieiOS_Tests/Pods-XYLottieiOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		214521027460683A60BCFA02B476CD39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8EB3D1122AF0D9F57F7FF882B57FD47 /* Pods-XYLottieiOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XYLottieiOS_Example/Pods-XYLottieiOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XYLottieiOS_Example/Pods-XYLottieiOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8052DF819D0B3429C725293E0B1941B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 810DA799AE92D771B0A2E0EB56233C9F /* Pods-XYLottieiOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XYLottieiOS_Example/Pods-XYLottieiOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XYLottieiOS_Example/Pods-XYLottieiOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		88FD6818BB8ACB0B1526907E35FCD150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6DC2AC7C1479E83E52CCAB313F933C6 /* Pods-XYLottieiOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XYLottieiOS_Tests/Pods-XYLottieiOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XYLottieiOS_Tests/Pods-XYLottieiOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8EE07FEDF471F4108BA54F480FD8F19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5A6347E592A4EAD799F0D7A04F5D867 /* XYLottieiOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XYLottieiOS/XYLottieiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XYLottieiOS/XYLottieiOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XYLottieiOS/XYLottieiOS.modulemap";
+				PRODUCT_MODULE_NAME = XYLottieiOS;
+				PRODUCT_NAME = XYLottieiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7BDBC1AFF0F19FD53D5CCD22A870F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDDF57BA3232482FF63E23A27AAEB152 /* XYLottieiOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XYLottieiOS/XYLottieiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XYLottieiOS/XYLottieiOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XYLottieiOS/XYLottieiOS.modulemap";
+				PRODUCT_MODULE_NAME = XYLottieiOS;
+				PRODUCT_NAME = XYLottieiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C06F6A92CD4E212A6382C4D09B033ED4 /* Build configuration list for PBXNativeTarget "Pods-XYLottieiOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1473A2ACB3D4793F0786AE0B9A618239 /* Debug */,
+				88FD6818BB8ACB0B1526907E35FCD150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3A2AEB7C390004382663B307401AFB6 /* Build configuration list for PBXNativeTarget "XYLottieiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BDBC1AFF0F19FD53D5CCD22A870F4F /* Debug */,
+				B8EE07FEDF471F4108BA54F480FD8F19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE039ED2380B3C5986FD6FAB88801749 /* Build configuration list for PBXNativeTarget "Pods-XYLottieiOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214521027460683A60BCFA02B476CD39 /* Debug */,
+				8052DF819D0B3429C725293E0B1941B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module XYLottieiOS {
+  umbrella header "XYLottieiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

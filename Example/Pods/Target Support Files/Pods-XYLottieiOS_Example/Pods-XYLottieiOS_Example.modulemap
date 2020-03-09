@@ -1,0 +1,6 @@
+framework module Pods_XYLottieiOS_Example {
+  umbrella header "Pods-XYLottieiOS_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
